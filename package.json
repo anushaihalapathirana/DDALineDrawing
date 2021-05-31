@@ -1,13 +1,27 @@
 {
-  "name": "midpointlinealgorithm",
+  "name": "dda-line-algorithm",
   "version": "1.0.0",
   "description": "Mid point line algorithm point generation",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anushaihalapathirana/DDALineDrawing.git"
+  },
+  "author": "Anusha Ihalapathirana",
+  "keywords": [
+    "line drawing",
+    "dda",
+    "dda line drawing",
+    "dda-line-algorithm",
+    "dda node",
+    "dda-node",
+    "node.js"
+  ],
   "license": "ISC",
+  "homepage": "https://github.com/anushaihalapathirana/DDALineDrawing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.2"
