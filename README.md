@@ -12,7 +12,7 @@ This Node.js library will facilitate the calculation of DDA algorithm for a give
 To get the coordinates of line from (1,4) to (5,9) use below code
 ``` js
 let dda = require('dda-line-algorithm')
-let isValid = dda.DDALine (1,4,5,9);
+let pointsList = dda.DDALine (1,4,5,9);
 ```
 
 returns
@@ -25,3 +25,13 @@ returns
   { x: 5, y: 9 } ]
 ```
  
+## Access points
+
+you can access points using 
+``` js
+for(const point of pointsList) {
+  x = point.x
+  y = point.y
+  // ...
+}
+```
