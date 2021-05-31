@@ -84,7 +84,3 @@ const calculateCase2 = function(startX, startY, endX, endY, slope) {
     while (startY <= endY)
     return arr; 
 }
-
-// remove this at the end
-const ret = this.DDALine(2,3,5,10)
-console.log(ret);
