@@ -1,6 +1,6 @@
 {
   "name": "dda-line-algorithm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mid point line algorithm point generation",
   "main": "src/index.js",
   "scripts": {
