@@ -1,6 +1,8 @@
+[![typescript](https://camo.githubusercontent.com/56e4a1d9c38168bd7b1520246d6ee084ab9abbbb/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f547970655363726970743f69636f6e3d74797065736372697074266c6162656c266c6162656c436f6c6f723d626c756526636f6c6f723d353535353535)](https://www.typescriptlang.org/)
+
 # DDALineDrawing
 
-This Node.js library will facilitate the calculation of DDA algorithm for a given 2 end points.
+This Node.js library (support TypeScript) will facilitate the calculation of DDA algorithm for a given 2 end points.
 
 ## Installation	
      npm install dda-line-algorithm
@@ -11,7 +13,7 @@ This Node.js library will facilitate the calculation of DDA algorithm for a give
 
 To get the coordinates of line from (1,4) to (5,9) use below code
 ``` js
-let dda = require('dda-line-algorithm')
+let dda = require('dda-line-algorithm') OR import dda from 'dda-line-algorithm'
 let pointsList = dda.DDALine (1,4,5,9);
 ```
 
